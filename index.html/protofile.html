@@ -17,13 +17,13 @@
         about
     </button>
     </a>
-    <a href="">
+    <a href="skills">
 
     <button>
         skills
     </button>
     </a>
-    <a href="">
+    <a href="me">
 
     <button>
         me
@@ -40,13 +40,40 @@
         <li> freelancing </li>
 
     </ol>
-    <img src  = "./images/photo.jpg"alt="photo">
-    <h1>contact me </h1>
-    <p>feel free to contact me </p>
-    <label for="name">name:</label>
-    <input type="text",id = "name">
-    <label for="email">email</label>
-    <input type="email">
+    
+    <h1>contect me </h1>
+    <p>feel free to get in touch me by filling the form below </p>
+    <form>
+       <label for="name">name:</label>
+       <input  type = "text"id  = "name">
+       <br>
+       <br>
+       <label for="email">email:</label>
+       <input  type ="email" id  = "email">
+       <h2>choose a gender:</h2>
+       <input type ="radio" id  = "male" value ="male">
+       <label for="male">male</label>
+       <input type ="radio" id  = "female" value ="female">
+        <label for="female">female</label>
+       <br>
+       <h2>select your interest:</h2>
+       <label for="coding ">coding </label>
+       <input type = "checkbox" id = "coding" value ="coding">
+       <label for ="reading">reading</label>
+       <input type = "checkbox" id = "reading" value ="reading">
+       <br>
+       <label for ="biography">biography:</label>
+       <br>
+       <textarea id ="biography" minlength="200" placeholder="write your biography"></textarea>
+
+
+
+    </form>
+    <a href ="submit">
+    <button>
+        submit
+    </button>
+    </a>
     
 
 
